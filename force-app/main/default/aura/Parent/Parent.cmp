@@ -1,0 +1,4 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    <c:Child1 aura:id="child11" />
+    <c:Child2 aura:id="child22" />
+</aura:component>

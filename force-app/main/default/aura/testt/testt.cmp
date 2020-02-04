@@ -1,0 +1,16 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+	 <aura:attribute name="jsonArray" type="Object[]"     />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <table class="slds-table slds-table--bordered">
+        <tbody>
+            <aura:iteration items="{!v.jsonArray}" var="row">
+                <tr>
+                    <td> {!row.color}</td>
+                    <td> {!row.value}</td>
+                    
+                </tr>
+            </aura:iteration>
+        </tbody>
+    </table>
+
+</aura:component>
