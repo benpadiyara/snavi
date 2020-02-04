@@ -1,0 +1,60 @@
+<aura:component implements="flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes" access="global" >
+<!--
+            <lightning:layoutItem size="6" flexibility="auto" padding="around-small" class="custom-box">
+<p>お客様へのメッセージを入力します</p>
+<iframe src="https://www.youtube.com/embed/45JRuZOBIKk"></iframe>
+-->
+    <div class="c-container slds-grid slds-grid_vertical">
+       <lightning:layout multipleRows="true" horizontalAlign="space">
+           <lightning:layoutItem size="12">
+           <lightning:layout>
+           <lightning:layoutItem flexibility="auto" padding="around-small" size="6" class="slds-box">
+                <div class="slds-text-heading_small iframe" >
+                    <p>お客様へのメッセージを入力します</p>
+                    <iframe src="https://www.youtube.com/embed/45JRuZOBIKk"></iframe>
+                </div>
+           </lightning:layoutItem>
+           <lightning:layoutItem flexibility="auto" padding="around-small" size="6" class="slds-box">
+               <div class="c-container slds-grid slds-grid_vertical">
+               <lightning:layout multipleRows="true" verticalAlign="stretch">
+                   <lightning:layoutItem flexibility="auto" padding="around-small" size="12" class="slds-grid slds-grid_vertical">
+                        <div class="slds-text-heading_small">
+                            <h1>1st elem</h1>
+                        </div>
+                   </lightning:layoutItem>
+                   <lightning:layoutItem flexibility="auto" padding="around-small" size="12" class="slds-grid slds-grid_vertical">
+                        <div class="slds-text-heading_small">
+                            <h1>2nd elem</h1>
+                        </div>
+                   </lightning:layoutItem>
+                   <lightning:layoutItem flexibility="auto" padding="around-small" size="12" class="slds-grid slds-grid_vertical">
+                        <div class="slds-text-heading_small">
+                            <h1>3 elem</h1>
+                        </div>
+                   </lightning:layoutItem>
+                   <lightning:layoutItem flexibility="auto" padding="around-small" size="12" class="slds-grid slds-grid_vertical">
+                        <div class="slds-text-heading_small">
+                            <h1>4 elem</h1>
+                        </div>
+                   </lightning:layoutItem>
+                   <lightning:layoutItem flexibility="auto" padding="around-small" size="12" class="slds-grid slds-grid_horizontal">
+                        <div class="slds-text-heading_small">
+                            <h1>5 elem</h1>
+                        </div>
+                   </lightning:layoutItem>
+                   <lightning:layoutItem flexibility="auto" padding="around-small" size="12" class="slds-grid slds-grid_horizontal">
+                        <div class="slds-text-heading_small">
+                            <h1>6 elem</h1>
+                        </div>
+                   </lightning:layoutItem>
+                
+               </lightning:layout>
+               </div>
+           </lightning:layoutItem>
+		   </lightning:layout>
+           </lightning:layoutItem>
+        </lightning:layout>
+        
+    </div>
+    
+</aura:component>
