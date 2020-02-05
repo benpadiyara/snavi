@@ -1,5 +1,0 @@
-<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
-	<aura:attribute name="test1" type="String" />
-    <Lightning:input name="Input2" value="{!v.test1}" label="Input22" />
-    <lightning:button label="Submit2" title="Neutral action" onclick="{! c.handleClick1 }"/>
-</aura:component>
